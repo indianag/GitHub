@@ -3,6 +3,8 @@
 let op1 = 5;
 let op2 = 6;
 
+const sum = () => op1 + op2 + op3;
+console.log(sum(op1, op2, op3));
 
 const subs = op1 => op1 - op2;
 console.log(subs(op1));
